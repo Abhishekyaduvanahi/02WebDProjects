@@ -139,3 +139,82 @@ img{
  margin-top: 25px;
 
 }
+
+/* here the code for profile section  ended*/
+
+
+/* here the code for About section start */
+.aboutContainerOuter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  margin-left:150px ;
+  margin-right:150px ;
+}
+.containerExpEdu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+
+}
+.containerExp{
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 50%;
+  align-items: center;
+  /* border: 1px solid black; */
+
+}
+.containerEdu{
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 50%;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.aboutHeading{
+  font-size: 90px;
+}
+
+/* here the code for About section end */
+
+
+/* here the code for Skills section start */
+
+.skillsContainerOuter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: auto;
+   margin: auto;
+
+}
+.skillDevelopmentSoftware{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.skillDevelopment{
+  border: 1px solid black;
+  padding: 38px;
+  border-radius: 24px;
+  margin: 8px;
+}
+.skillSoftware{
+  border: 1px solid black;
+  padding: 38px;
+  border-radius: 24px;
+  margin: 8px;
+}
